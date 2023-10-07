@@ -1,0 +1,26 @@
+{
+  "name": "simple-nodejs-application",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Nishant",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devops-nishant/SImpleNodeJS-Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devops-nishant/SImpleNodeJS-Application/issues"
+  },
+  "homepage": "https://github.com/devops-nishant/SImpleNodeJS-Application#readme"
+}
