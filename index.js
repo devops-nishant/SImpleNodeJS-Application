@@ -1,11 +1,14 @@
+const path = require('path');
 const express = require('express')
 const app = express()
 const port = 3000
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1>')
-})
+  res.sendFile(`${__dirname}/public/index.html`);
+});
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`App listening on port ${port}`)
 })
